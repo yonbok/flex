@@ -1,7 +1,27 @@
-// 表示されてる要素を非表示
 $(function(){
-  $(".box1").hide();
+  $(".box1").mouseover(function(){
+    $(".box1").css({"background-color": "#0000FF"});
+  });
 });
+
+
+
+// 赤色の正方形を青色の正方形に変更
+// $(function(){
+//   $(".box1").slideDown(function (){
+//     $(".box1").css({
+//       "background-color": "#0000FF",
+//       "width": "200px",
+//       "height": "100px"
+//     }).slideUp();
+//   });
+// });
+
+
+// 表示されてる要素を非表示
+// $(function(){
+//   $(".box1").hide();
+// });
 
 
 // 非表示の要素を表示
