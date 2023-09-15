@@ -1,8 +1,24 @@
+// クラス属性の追加・削除
+// なぜ引数のbox1-extに.がいらないのか？
 $(function(){
   $(".box1").mouseover(function(){
-    $(".box1").css({"background-color": "#0000FF"});
+    $(".box1").addClass("box1-ext");
+  });
+  $(".box1").mouseout(function(){
+    $(".box1").removeClass("box1-ext");
   });
 });
+
+
+// イベントの検出
+// $(function(){
+//   $(".box1").mouseover(function(){
+//     $(".box1").css({"background-color": "#0000FF"});
+//   });
+//   $(".box1").mouseout(function(){
+//     $(".box1").css({"background-color": "#FF0000"});
+//   });
+// });
 
 
 
