@@ -1,13 +1,24 @@
+// マウスクリックイベントの設定
+// $(function(){
+//   $(".box1").on("click", function(){
+//     $(".box1").addClass("box1-ext");
+//   });
+//   $(".box1").mouseout(function(){
+//     $(".box1").removeClass("box1-ext");
+//   });
+// });
+
+
 // クラス属性の追加・削除
 // なぜ引数のbox1-extに.がいらないのか？
-$(function(){
-  $(".box1").mouseover(function(){
-    $(".box1").addClass("box1-ext");
-  });
-  $(".box1").mouseout(function(){
-    $(".box1").removeClass("box1-ext");
-  });
-});
+// $(function(){
+//   $(".box1").mouseover(function(){
+//     $(".box1").addClass("box1-ext");
+//   });
+//   $(".box1").mouseout(function(){
+//     $(".box1").removeClass("box1-ext");
+//   });
+// });
 
 
 // イベントの検出
