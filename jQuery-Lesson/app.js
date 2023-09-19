@@ -1,21 +1,38 @@
-// 正方形をクリックしたときに、その正方形のみslideUpする
+// childrenを使った書き方
 $(function(){
-    $(".bg1").on("click", function(){
-        $(".bg1").slideUp();
-    });
-
-    $(".bg2").on("click", function(){
-        $(".bg2").slideUp();
-    });
-
-    $(".bg3").on("click", function() {
-        $(".bg3").slideUp();
-    });
-
-    (".bg4").on("click", function(){
-        $(".bg4").slideUp();
+    $("button").on("click", function(){
+        $("ul").children().css("color", "red");
     });
 });
+
+
+
+// thisを使って書き換え
+// $(function(){
+//     $(".box1").on("click", function(){
+//         $(this).slideUp();
+//     });
+// });
+
+
+// 正方形をクリックしたときに、その正方形のみslideUpする
+// $(function(){
+//     $(".bg1").on("click", function(){
+//         $(".bg1").slideUp();
+//     });
+
+//     $(".bg2").on("click", function(){
+//         $(".bg2").slideUp();
+//     });
+
+//     $(".bg3").on("click", function() {
+//         $(".bg3").slideUp();
+//     });
+
+//     $(".bg4").on("click", function(){
+//         $(".bg4").slideUp();
+//     });
+// });
 
 
 
