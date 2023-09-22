@@ -1,0 +1,29 @@
+/*スタイルシートがhtmlと分離したファイルに存在する場合
+文字コードを決定しなければならないというルールがある*/
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+.box {
+  height: 300px;
+  width: 600px;
+  margin: 0 auto 50px;
+  background-color: #eee;
+}
+#back {
+  position: fixed;
+  /*上の指定をすることで、トップに戻るボタンは常に同じ位置に
+  表示されるようになる（ページ右下20pxの位置*/
+  right: 20px;
+  bottom: 20px;
+}
+#back img {
+  width: 50px;
+}
