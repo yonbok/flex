@@ -30,6 +30,12 @@ h1 {
   transition: all .4s;
   box-sizing: border-box;
 }
+.menu-trigger {
+  position: relative;
+  width: 50px;
+  height: 44px;
+}
+/* 33~37行がないとハンバーガーアイコンが出てこない*/
 .menu-trigger span {
   position: absolute;
   left: 0;
