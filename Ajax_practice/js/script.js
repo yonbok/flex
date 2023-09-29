@@ -5,7 +5,7 @@ $(function(){
   $("#btn").on("click", function(){
     // 入力された都市名でWebAPIに天気情報をリクエスト
     $.ajax({
-      url: "https://api.openweathermap.org/data/2.5/weather?q=tokyo&units=metric&appid=fd9f51f8b666bbd2c985bc1e4323387a"
+      url: "https://api.openweathermap.org/data/2.5/weather?q=" + $('#cityname').val() + "&units=metric&appid=" + "fd9f51f8b666bbd2c985bc1e4323387a",
       dateType: "jsonp",
     }).done(function (data){
       // 通信成功
@@ -22,10 +22,16 @@ $(function(){
       // 天気
       $("#weather").text(data.weather[0].main);
       // 天気アイコン
-      $("img").attr("src","http://openweathermap.org/img/w/"アイコン名".png");
+      $("img").attr("src","http://openweathermap.org/img/w/" + data.weather[0].icon + ".png");
       $("img").attr("alt", data.weather[0].main);
     }).fail(function (data){
       //　通信失敗
-    })
+      alert("通信に失敗しました。");
+    });
   });
 });
+// $("#id名").text(JSONから欲しい値)の形で指定すると、指定したidのテキストを
+// JSONから受け取った値に変換される。
+// 今回の場合は"data.JSONのオブジェクト名.プロパティ名"で取得している
+// さらに、$(要素名).attr(属性名,値);と指定すると、img要素に
+// src属性とalt属性が追加される。
