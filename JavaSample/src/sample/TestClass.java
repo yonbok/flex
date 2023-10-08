@@ -19,4 +19,9 @@ public class TestClass {
 		System.out.println(1 + "+" + 2 + "=" + (1+2));
 	}
 
+	public String TestMethod() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
 }
