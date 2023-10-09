@@ -110,6 +110,120 @@ public class JavaSampleClass {
 		}
 		
 		
+		int member = (int)(Math.random()*100)+1;
+		System.out.println("メンバー数：" + member);
+		if(member < 50) {
+			System.out.println("50未満です。");
+		}else {
+			System.out.println("範囲外です。");
+		}
+		
+		
+		for(int i = 1;i <= 5;i++) { //for(初期化処理；条件式；増分処理)
+			System.out.println(i+" ");
+		}
+		System.out.println();
+		
+		
+		for(int i = 0;i < 10;i += 2) {
+			System.out.println(i+ "");
+		}
+		System.out.println();
+		
+		
+		
+		for(int i = 1;i <= 2;i++) {
+			for(int j = 1; j <= 3 ; j++) {
+				int k = i + j;
+				System.out.print(i+"+" + j + "="+ k + "");
+			}
+			System.out.println();
+		}
+		
+		
+		int i = 0;
+		while(i <= 5) {
+			System.out.print(i+ "");
+			i++;
+		}
+		System.out.println();
+		
+		
+		int u = 0;
+		do {
+			System.out.print(u+"");
+			u++;
+		}while(u <= 5); //セミコロン忘れずに！
+		System.out.println();
+		
+		
+//		int y,sum;
+//		sum = 1;
+		//whileループで実行
+//		System.out.print("whileで実行:");
+//		y = 1;
+//		while(y < sum) {
+//			System.out.print("*");
+//			y++;
+//		}
+//		System.out.println();
+		//do～whileループで実行
+//		System.out.print("do～whileで実行;");
+//		y = 1;
+//		do {
+//			System.out.print("*");
+//			y++;
+//		}while(y < sum);
+//		
+		
+//		double one,two,three;
+//		double sum,avg;
+//		one = 1.2;
+//		two = 3.7;
+//		three = 4.1;
+//		System.out.println(one + "" + two + "" + three);
+//		sum = one + two + three;
+//		avg = sum / 3.0;
+//		System.out.println("合計値：" + sum);
+//		System.out.println("平均値：" + avg);
+//		
+//		
+//	    for(int r=0;r <=10;r++) {
+//	      if(r%2==0) {
+//	    	  System.out.println(r);
+//	      }
+//	    }
+		
+	    
+	    int sum = 0;
+	    int count = 0;
+	    for(int e=1;e <= 10;e++) {
+	    	if(e%2==0) {
+	    		sum += e;
+	    		count++;
+	    	}
+	    }
+	    System.out.println("1～10までの偶数の合計は" + sum);
+    	System.out.println("1～10までの偶数の数は" + count);
+		
+    	
+    	
+    	int [] people = {1,2,3,4,5,6,7,8,9,10};
+    	for (int t=0;t < people.length; t++) {
+    		System.out.print(people[t]);
+    		if(people[t] != 10)
+    			System.out.print(",");
+    	}
+    	
+    	
+    	int year[] = new int[20];
+//    	String str = "";
+    	year[0] = 0;
+    	for(int k = 1;k < year.length; k++) {
+    		year[k] = year[k - 1] + 5;
+    	}
+    	
+    	
 		//クラスのオブジェクトを生成
 //		JavaSampleClass cl = new JavaSampleClass();
 		
