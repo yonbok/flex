@@ -217,7 +217,7 @@ public class JavaSampleClass {
     	
     	
     	int year[] = new int[20];
-//    	String str = "";
+    	String str = "";
     	year[0] = 0;
     	for(int k = 1;k < year.length; k++) {
     		year[k] = year[k - 1] + 5;

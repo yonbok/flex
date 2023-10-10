@@ -22,6 +22,7 @@ public class TestClass {
 	public String TestMethod() {
 		// TODO 自動生成されたメソッド・スタブ
 		return null;
+		
 	}
 
 }
