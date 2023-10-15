@@ -49,6 +49,23 @@ public class TestClass {
 			System.out.print(s[i] + " ");
 		}
 		System.out.println();
+		
+		
+		int a[][] = new int[3][4];
+		int m,b;
+		//二次元配列に値を代入
+		for(m = 0; m < a.length; m++) {
+			for(b = 0; b < a[m].length; b++) {
+				a[m][b] = m + b;
+			}
+		}
+		//成分の表示
+		for(m = 0; m < a.length; m++) {
+			for(b = 0; b < a[m].length; b++) {
+				System.out.print(a[m][b] + " ");
+			}
+			System.out.println();
+		}
 	}
 
 }
