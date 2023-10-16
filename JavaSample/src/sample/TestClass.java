@@ -51,6 +51,7 @@ public class TestClass {
 		System.out.println();
 		
 		
+		// 多次元配列
 		int a[][] = new int[3][4];
 		int m,b;
 		//二次元配列に値を代入
@@ -63,6 +64,16 @@ public class TestClass {
 		for(m = 0; m < a.length; m++) {
 			for(b = 0; b < a[m].length; b++) {
 				System.out.print(a[m][b] + " ");
+			}
+			System.out.println();
+		}
+		
+		
+		int c[][] = { {0,1}, {2}, {3,4,5,6} };
+		//成分の表示
+		for(int v = 0; v < c.length; v++) {
+			for(int x = 0; x < c[v].length; x++) {
+				System.out.print(c[v][x] + " ");
 			}
 			System.out.println();
 		}
