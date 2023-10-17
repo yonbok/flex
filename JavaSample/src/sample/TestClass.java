@@ -77,6 +77,21 @@ public class TestClass {
 			}
 			System.out.println();
 		}
+		
+		
+		int j = 10;
+		String k = "field";
+		//メソッド
+		int add(int t, int u) {
+			return t + u;
+		}
+		String add(String k) {
+			return this.k + k;
+		}
+		void showNum() {
+			System.out.println("j = " + j);
+		}
+	
 	}
 
 }
