@@ -82,16 +82,26 @@ public class TestClass {
 		int j = 10;
 		String k = "field";
 		//メソッド
-		int add(int t, int u) {
+       record add(int t, int u) {
 			return t + u;
 		}
-		String add(String k) {
+		add(String k) {
 			return this.k + k;
 		}
 		void showNum() {
 			System.out.println("j = " + j);
 		}
 	
+	}
+
+	public int add(String string) {
+		// TODO 自動生成されたメソッド・スタブ
+		return 0;
+	}
+
+	public void showNum() {
+		// TODO 自動生成されたメソッド・スタブ
+		
 	}
 
 }
