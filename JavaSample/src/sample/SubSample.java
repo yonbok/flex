@@ -8,6 +8,15 @@ public class SubSample {
 				System.out.println("5以上です。");
 			}else
 				System.out.println("範囲外です。");
+			
+			
+			
+		int team = (int)(Math.random()*100)+1;
+		System.out.println("チーム数：" + team);
+		if(team <= 10 || team >= 90) {
+			System.out.println("10以下か90以上の値です。");
+		}else
+			System.out.println("範囲外です。");
 	}
 
 }
