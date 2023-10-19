@@ -45,6 +45,22 @@ public class SubSample {
 			System.out.println("2と3の公倍数です。");
 		}else
 			System.out.println("範囲外です。");
+		System.out.println();
+		
+		
+		
+		int month = (int)(Math.random()*100)+1;
+		System.out.println("月数：" + month);
+		if(month <= 50) {
+			System.out.println("50以下です。");
+		}else if(month % 2 == 0) {
+			System.out.println("偶数です。");
+		}else if(month <= 50 && month % 2 == 0) {
+			System.out.println("50以下の偶然です。");
+		}else {
+			System.out.println("範囲外です。");
+		}
+		System.out.println();
 	}
 
 }
