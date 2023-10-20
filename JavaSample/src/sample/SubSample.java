@@ -61,6 +61,14 @@ public class SubSample {
 			System.out.println("範囲外です。");
 		}
 		System.out.println();
+		
+		
+		
+        int day = (int)(Math.random()*10)+1;
+        System.out.println("日にち：" + day);
+        for(int d = 1; d <= day; d++) {
+        	System.out.print("■");
+        }
 	}
 
 }
