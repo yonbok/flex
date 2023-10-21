@@ -69,6 +69,18 @@ public class SubSample {
         for(int d = 1; d <= day; d++) {
         	System.out.print("■");
         }
+        System.out.println();
+        
+        
+        int year = (int)(Math.random()*10)+1;
+        System.out.println("年数：" + year);
+        int y = 1;
+        while(y <= year) {   //while文はfor文の()の中を分解
+        	System.out.print("■");
+        	y++;
+        }
+        System.out.println();
+        
 	}
 
 }
