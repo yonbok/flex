@@ -81,6 +81,15 @@ public class SubSample {
         }
         System.out.println();
         
+        
+        int skz = (int)(Math.random()*10)+1;
+        System.out.println("すきず：" + skz);
+        int s = 1;
+        do {       //do~while文はwhileで囲むところをdoで囲む
+        	System.out.print("■");
+        	s++;
+        }while(s <= skz);  //while文の一行目
+        System.out.println();
 	}
 
 }
