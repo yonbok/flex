@@ -90,6 +90,22 @@ public class SubSample {
         	s++;
         }while(s <= skz);  //while文の一行目
         System.out.println();
+        
+        
+        int r = 0;
+        while(r <= 3) {
+        	System.out.println("r=" + r);
+        	r++;
+        }
+        System.out.println();
+        
+        
+        for(int f = 0; f <= 3; f++) {
+        	System.out.println("f=" + f);
+        }
+        System.out.println();
+        
+        
 	}
 
 }
