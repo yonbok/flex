@@ -106,6 +106,13 @@ public class SubSample {
         System.out.println();
         
         
+        
+        int g = 3;
+        while(0 <= g) {
+        	System.out.println("g=" + g);
+        	g--;
+        }
+        System.out.println();
 	}
 
 }
