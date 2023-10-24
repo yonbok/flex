@@ -113,6 +113,30 @@ public class SubSample {
         	g--;
         }
         System.out.println();
+        
+        
+        
+        while(true) {
+        	int ship = (int)(Math.random()*10)+1;
+        	System.out.println(ship);
+        	if(ship == 10) {
+        		break;
+        	}
+        }
+        System.out.println("終了します。");
+        System.out.println();
+        
+        
+        
+        while(true) {
+        	int car = (int)(Math.random()*100)+1;
+        	System.out.println(car);
+        	if(car % 10 == 0) {
+        		break;
+        	}
+        }
+        System.out.println("終了します。");
+        System.out.println();
 	}
 
 }
