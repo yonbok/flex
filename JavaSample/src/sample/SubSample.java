@@ -137,6 +137,18 @@ public class SubSample {
         }
         System.out.println("終了します。");
         System.out.println();
+        
+        
+        
+        int[]date = new int[100];
+        for(int j =0; j < 5; j++) {
+        	date[j] = (int)(Math.random()*100)+1;
+        }
+        for(int j = 0; j < 5; j++) {
+        	System.out.println(date[j]);
+        }
+        System.out.println();
+        
 	}
 
 }
