@@ -149,6 +149,15 @@ public class SubSample {
         }
         System.out.println();
         
+        
+        
+        for(int c = 1; c <= 9; c++) {
+        	for(int d = 1; d <= 9; d++) {
+        		int e = c * d;
+        		System.out.print(c + "×" + d + "=" + e +" ");
+        	}
+        	System.out.println();
+        }
 	}
 
 }
