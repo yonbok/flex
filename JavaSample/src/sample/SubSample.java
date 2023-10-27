@@ -158,6 +158,16 @@ public class SubSample {
         	}
         	System.out.println();
         }
+        	
+        
+        
+        
+        double[] w = new double[7];
+        int q = (int)(Math.random()*10)+1;
+        for(double z = 0; z < w.length; z++) {
+        	System.out.println(w[q] + " ");
+        }
+        System.out.println();
 	}
 
 }
