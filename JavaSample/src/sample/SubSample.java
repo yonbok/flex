@@ -175,6 +175,22 @@ public class SubSample {
         
         
         
+        // 二次元配列
+        int o[][] = new int[3][4];
+        int i,u;
+        for(i = 0; i < o.length; i++) {
+        	for(u = 0; u < o[i].length; u++) {
+        		o[i][u] = i + u;
+        	}
+        }
+        for(i = 0; i < o.length; i++) {
+        	for(u = 0; u < o[i].length; u++) {
+        		System.out.print(o[i][u] + " ");
+        	}
+        	System.out.println();
+        }
+        
+        
 	}
 
 }
