@@ -161,13 +161,20 @@ public class SubSample {
         	
         
         
-        
-        double[] w = new double[7];
-        int q = (int)(Math.random()*10)+1;
-        for(double z = 0; z < w.length; z++) {
-        	System.out.println(w[q] + " ");
+        int w[] = { 5,4,3,2,1 };
+        String q[] = {"私", "たえちゃん", "かっちゃん", "パパ", "ママ" };
+        int m;
+        for(m = 0; m < w.length; m++) {   // (配列変数名).length == 配列変数の成分の数
+        	System.out.print(w[m] + " ");
         }
         System.out.println();
+        for(m = 0; m < q.length; m++) {
+        	System.out.print(q[m] + " ");
+        }
+        System.out.println();
+        
+        
+        
 	}
 
 }
