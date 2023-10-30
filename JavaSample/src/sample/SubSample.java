@@ -213,6 +213,17 @@ public class SubSample {
         System.out.println();
         
         
+        int bowl = (int)(Math.random()*100)+1;
+        System.out.println("ボウルの数：" + bowl);
+        if(bowl <=10 | 90 <= bowl) {
+        	System.out.println("10以下か90以上の値です。" );
+        }else {
+        	System.out.println("規定範囲外です。");
+        }
+        System.out.println();
+        
+        
+        
 	}
 
 }
