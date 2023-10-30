@@ -191,6 +191,28 @@ public class SubSample {
         }
         
         
+        
+        int live = (int)(Math.random()*10)+1;
+        System.out.println("ライブ回数：" + live);
+        if(5 <= live) {
+        	System.out.println("5以上です。");
+        }else {
+        	System.out.println("5より少ないです。");
+        }
+        System.out.println();
+        
+        
+        
+        int music = (int)(Math.random()*10)+1;
+        System.out.println("音楽の数：" + music);
+        if(1 != music) {
+        	System.out.println("1ではありません。");
+        }else {
+        	System.out.println("1です。");
+        }
+        System.out.println();
+        
+        
 	}
 
 }
