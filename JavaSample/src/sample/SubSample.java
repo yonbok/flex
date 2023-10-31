@@ -236,6 +236,19 @@ public class SubSample {
         System.out.println();
         
         
+        
+        int member = (int)(Math.random()*100)+1;
+        System.out.println("メンバーの数：" + member);
+        if(member % 2 == 0) {
+        	System.out.println("2の倍数です。");
+        }else if(member % 3 == 0) {
+        	System.out.println("3の倍数です。");
+        }else if(member % 2 == 0 & member % 3 == 0) {
+        	System.out.println("2と3の公倍数です。");
+        }
+        System.out.println();
+        
+        
 	}
 
 }
