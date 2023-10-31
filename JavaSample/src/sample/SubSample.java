@@ -224,6 +224,18 @@ public class SubSample {
         
         
         
+        int age = (int)(Math.random()*10)-1;
+        System.out.println("年齢：" + age);
+        if(age < 0) {
+        	System.out.println("負の数です。");
+        }else if(0 < age) {
+        	System.out.println("正の数です。");
+        }else {
+        	System.out.println("0です。");
+        }
+        System.out.println();
+        
+        
 	}
 
 }
