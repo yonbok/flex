@@ -249,6 +249,22 @@ public class SubSample {
         System.out.println();
         
         
+        
+        int tempurture = (int)(Math.random()*35)-1;
+        System.out.println("摂氏" + tempurture + "度");
+        if(30 <= tempurture) {
+        	System.out.println("真夏日です。");
+        }else if(25 <= tempurture & tempurture< 30) {
+        	System.out.println("夏日です。");
+        }else if(tempurture < 0) {
+        	System.out.println("真冬日です。");
+        }else {
+        	System.out.println("問題ありません。");
+        }
+        System.out.println();
+        
+        
+        
 	}
 
 }
