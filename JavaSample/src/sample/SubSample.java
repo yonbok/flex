@@ -280,7 +280,17 @@ public class SubSample {
         	System.out.print("▽");
         	j++;
         }
-        System.out.println();
+        System.out.println(" ");
+        
+        
+        int sun = (int)(Math.random()*10)+1;
+        System.out.println("丸：" + sun);
+        int v = 1;
+        do {
+        	System.out.print("○");
+        	v++;
+        }while(v <= sun);
+        System.out.println(" ");
         
         
 	}
