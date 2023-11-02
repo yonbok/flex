@@ -265,6 +265,24 @@ public class SubSample {
         
         
         
+        int sea = (int)(Math.random()*10)+1;
+        System.out.println("数：" + sea);
+        for(int h = 1; h <= sea; h++) {
+        	System.out.print("■");
+        }
+        System.out.println();
+        
+        
+        int river = (int)(Math.random()*10)+1;
+        System.out.println("三角：" + river);
+        int j = 1;
+        while(j <= river) {
+        	System.out.print("▽");
+        	j++;
+        }
+        System.out.println();
+        
+        
 	}
 
 }
