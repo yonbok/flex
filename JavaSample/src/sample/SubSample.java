@@ -313,6 +313,25 @@ public class SubSample {
         
         
         
+        while(true) {
+        	int cheese = (int)(Math.random()*100)+1;
+        	System.out.println(cheese);
+        	if(cheese % 10 == 0) {
+        		break;
+        	}
+        }
+        System.out.println("完売");
+        System.out.println();
+        
+        
+        int star = (int)(Math.random()*10)+1;
+        if(5 <= star) {
+        	System.out.println("★");
+        }else {
+        	System.out.println("出た数字：" + star);
+        }
+        System.out.println();
+        
 	}
 
 }
