@@ -293,6 +293,26 @@ public class SubSample {
         System.out.println(" ");
         
         
+        int e = 3;
+        while(0 <= e) {
+        	System.out.println("e = " + e);
+        	e--;
+        }
+        System.out.println();
+        
+        
+        while(true) {
+        	int svt = (int)(Math.random()*13)+1;
+        	System.out.println(svt);
+        	if(svt == 13) {
+        		break;
+        	}
+        }
+        System.out.println("終わり");
+        System.out.println();
+        
+        
+        
 	}
 
 }
