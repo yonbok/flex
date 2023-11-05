@@ -326,11 +326,15 @@ public class SubSample {
         
         int star = (int)(Math.random()*10)+1;
         if(5 <= star) {
-        	System.out.println("★");
+        	for(int n = 1; n <= star; n++) {
+        		System.out.print("★");
+        	}
         }else {
         	System.out.println("出た数字：" + star);
         }
         System.out.println();
+        
+        
         
 	}
 
