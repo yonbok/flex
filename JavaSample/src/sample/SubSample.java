@@ -336,6 +336,35 @@ public class SubSample {
         
         
         
+        int tea = (int)(Math.random()*10)+1;
+        if(tea % 2 == 0) {
+        	for(int x = 1; x <= tea; x++) {
+        		System.out.print("★");
+        	}
+        }else {
+        	for(int t = 1; t <= tea; t++) {
+        		System.out.print("☆");
+        	}
+        }
+        System.out.println();
+        
+        
+        
+        while(true) {
+        	int cafe = (int)(Math.random()*100)+1;
+        	// System.out.println(cafe);
+        	if(cafe % 10 == 0) {
+        		for(int qw = 1; qw <= cafe; qw++) {
+        			System.out.println(cafe);
+        		}
+        	}else {
+        		break;
+        	}
+        }
+        System.out.println();
+        
+        
+        
 	}
 
 }
