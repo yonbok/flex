@@ -350,15 +350,11 @@ public class SubSample {
         
         
         
-        while(true) {
-        	int cafe = (int)(Math.random()*100)+1;
-        	// System.out.println(cafe);
+        for(int cafe = 1; cafe <= 100; cafe++) {
         	if(cafe % 10 == 0) {
-        		for(int qw = 1; qw <= cafe; qw++) {
-        			System.out.println(cafe);
-        		}
+        		System.out.println(cafe);
         	}else {
-        		break;
+        		System.out.print(cafe + " ");
         	}
         }
         System.out.println();
