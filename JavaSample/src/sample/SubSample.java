@@ -362,10 +362,14 @@ public class SubSample {
         
         for(int juice = 1; juice <= 9; juice++) {
         	for(int latte = 1; latte <= 9; latte++) {
-        		System.out.println(juice + "*" + latte + "=" + juice*latte + " ");
+        		System.out.print(juice + "*" + latte + "=" + juice*latte + " ");
         	}
+        	System.out.println();       
         }
-        System.out.println();
+        
+        
+        
+        
         
         
 	}
