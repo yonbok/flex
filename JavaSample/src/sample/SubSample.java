@@ -380,9 +380,20 @@ public class SubSample {
         	}
         	System.out.println();
         }
+        System.out.println();
         
         
         
+        for(int dog = 1; dog <= 10; dog++) {
+        	for(int cat = 9; 1 <= cat; cat--) {
+        		if(dog > cat) {
+        			System.out.print("■");
+        		}else {
+        			System.out.print("□");
+        		}
+        	}
+        	System.out.println();
+        }
         
         
 	}
