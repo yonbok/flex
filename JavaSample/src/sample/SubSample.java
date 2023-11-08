@@ -369,11 +369,14 @@ public class SubSample {
         
         
         
-        String dog = "■";
-        String cat = "□";
+       
         for(int as = 1; as <= 10; as++) {
-        	for(int zx = 9; zx <= 1; zx--) {
-        		System.out.print(dog + cat);
+        	for(int zx = 9; 1 <= zx; zx--) {
+        		if(as != zx) {
+        			System.out.print("■");
+        		}else {
+        			System.out.print("□");
+        		}
         	}
         	System.out.println();
         }
