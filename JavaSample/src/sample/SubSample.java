@@ -396,6 +396,19 @@ public class SubSample {
         }
         
         
+        
+        int[] dance = { 3,2,1 };
+        String danceratya[] = { "leeknow", "hyonjin", "felix" };
+        int sd;
+        for(sd = 0; sd < dance.length; sd++) {
+        	System.out.print(dance[sd] + " ");
+        }
+        System.out.println();
+        for(sd = 0; sd < danceratya.length; sd++) {
+        	System.out.print(danceratya[sd] + " ");
+        }
+        System.out.println();
+        
 	}
 
 }
