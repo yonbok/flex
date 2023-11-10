@@ -409,6 +409,22 @@ public class SubSample {
         }
         System.out.println();
         
+        
+        
+        int df[][] = new int[3][4];
+        int rap,vocal;
+        for(rap = 0; rap < df.length; rap++) {
+        	for(vocal = 0; vocal < df[rap].length; vocal++) {
+        		df[rap][vocal] = rap + vocal;
+        	}
+        }
+        for(rap = 0; rap < df.length; rap++) {
+        	for(vocal = 0; vocal < df[rap].length; vocal++) {
+        		System.out.print(df[rap][vocal] + " ");
+        	}
+        	System.out.println();
+        	
+        }
 	}
 
 }
