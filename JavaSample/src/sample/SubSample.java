@@ -439,6 +439,14 @@ public class SubSample {
         
         
         
+        int[] rock = {0,1,2,3,4,5,6};
+        int jyp = (int)(Math.random()*10)+1;
+        for(int pd = 0; pd < rock.length; pd++) {
+        	System.out.print("rock" + rock[pd] + " = " + rock[jyp] + " ");
+        }
+        System.out.println();
+        
+        
 	}
 
 }
