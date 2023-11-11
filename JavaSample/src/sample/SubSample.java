@@ -423,8 +423,22 @@ public class SubSample {
         		System.out.print(df[rap][vocal] + " ");
         	}
         	System.out.println();
-        	
         }
+        System.out.println();
+        
+        
+        
+        int bn[][] = { {0,1}, {2}, {3,4,5,6} };
+        for(int jk = 0; jk < bn.length; jk++) {
+        	for(int dk = 0; dk < bn[jk].length; dk++) {
+        		System.out.print(bn[jk][dk] + " ");
+        	}
+        	System.out.println();
+        }
+        System.out.println();
+        
+        
+        
 	}
 
 }
