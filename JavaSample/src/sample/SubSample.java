@@ -442,7 +442,7 @@ public class SubSample {
         int[] rock = {0,1,2,3,4,5,6};
         int jyp = (int)(Math.random()*10)+1;
         for(int pd = 0; pd < rock.length; pd++) {
-        	System.out.print("rock" + rock[pd] + " = " + jyp + " ");
+        	System.out.print("rock" + "▽" + rock[pd] + " = " + jyp + " ");
         }
         System.out.println();
         
@@ -452,10 +452,13 @@ public class SubSample {
         double[] smbear = { 0.2, -5.1, 1.3, 1.8 };
         for(int cv = 0; cv < bear.length; cv++) {
         	for(double vb = 0.2; vb < smbear[cv]; vb++) {
-        		System.out.print(bear[cv] +  smbear[cv] + " ");
+        		System.out.print("bear" + "▽" + bear[cv] + " = " + smbear + " ");
         	}
         }
         System.out.println();
+        
+        
+        
         
 	}
 
