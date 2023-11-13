@@ -1,5 +1,7 @@
 package sample;
 
+import java.util.Random;
+
 public class SubSample {
 	public static void main(String[] args) {
 		int num = (int)(Math.random()*10)+1;
@@ -440,9 +442,9 @@ public class SubSample {
         
         
         int[] rock = {0,1,2,3,4,5,6};
-        int jyp = (int)(Math.random()*10)+1;
+        int[] intArray = new Random().ints(7, 0, 10).toArray();
         for(int pd = 0; pd < rock.length; pd++) {
-        	System.out.print("rock" + "▽" + rock[pd] + " = " + jyp + " ");
+        	System.out.print("rock" + "▽" + rock[pd] + " = " + intArray + " ");
         }
         System.out.println();
         
