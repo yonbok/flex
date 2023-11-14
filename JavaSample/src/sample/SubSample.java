@@ -461,11 +461,15 @@ public class SubSample {
         
         
         
-        int[] monster = { 1,2,3,4,5,6,7,8,9,10 };
-        int night = (int)(Math.random()*100)+1;
+        int[] monster = new int[5]; // 要素数が5の配列作成
+        Random rand = new Random();
         for(int gh = 1; gh < monster.length; gh++) {
-        	System.out.print(monster[gh] + " ");
+        	monster[gh] = rand.nextInt(11); // 0～10のうちの乱数を作成し配列に格納
         }
+        for(int value : monster) {  // 配列内の値を順番に表示
+        	System.out.print(value + " ");
+        }
+        System.out.println();
         
         
 	}
