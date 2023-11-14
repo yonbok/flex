@@ -461,6 +461,12 @@ public class SubSample {
         
         
         
+        int[] monster = { 1,2,3,4,5,6,7,8,9,10 };
+        int night = (int)(Math.random()*100)+1;
+        for(int gh = 1; gh < monster.length; gh++) {
+        	System.out.print(monster[gh] + " ");
+        }
+        
         
 	}
 
